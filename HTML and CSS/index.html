@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- helps improve accessibility -->
+    <head>
+        <meta charset="UTF-8"> <!-- allows you to read different unicode characters, it allows the website to be read -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport on a website is the area of the window in which web content can be seen.-->
+        <!-- Meta tags that help improve search engine optimization
+            <meta name="description" content="I am an learner and developer. I am currently learning HTML, CSS and JS but will expand my learning sxope soon to Python, React, Node, PHP, etc.">
+            <meta name="keyword" content="HTML, CSS, JS, Python, React, Node, PHP, learn HTML, learn CSS">
+            <meta name="author" content="Olawumi Ladele, Ladele Olawumi, Olawunmi Ladele, Ladele Olawunmi, Abike Ladele, Ladele Abike, laabike">
+         -->
+        <title>
+            HTML and CSS Course
+        </title>
+        <link rel="stylesheet" href="./main.css">
+
+    </head>
+<!-- CSS BOX MODEL
+    the difference between margin and padding
+    padding - the space / distance inside i.e space / distance between the content and the border
+    margin - the space / distance outside i.e the space / distance between the border and another content-->
+    <body>
+        <div>
+            <header style="background: black; color:orange; text-align: center; padding: 1px">
+                <h1 id="title">Welcome To Web Development</h1>
+                <ul id="menu">
+                    <li>
+                        <a href="./index.html" style="color: orange;">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+            </header>
+    
+            <main>
+                <!-- Front end section-->
+                <div class="section" id="section-1"> 
+                    <h2>Front End Development</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+                
+                <!-- Back end section-->
+                <div class="section" id="section-2"> 
+                    <h2>Back End Development</h2>
+                    <ul>
+                        <li>Node</li>
+                        <li>Python</li> 
+                        <li>PHP</li>
+                        <li>Java</li>
+                        <li>Ruby</li>
+                    </ul>
+                </div>
+                
+                <!-- Database section-->
+                <div class="section" id="section-3">
+                    <h2>Database</h2>
+                    <ul>
+                        <li>SQL</li>
+                        <li>MangoDB</li>
+                    </ul>
+                </div>
+                
+                <!-- Tools used section-->
+                <div class="section" id="section-4">
+                    <h3>Tools to be used. </h3>
+                    <ol>
+                        <li> Computer</li>
+                        <li>Internet</li>
+                        <li>
+                            <a href="https://www.google.com/chrome/" target="_blank">Browser</a>
+                        </li>
+                        <li>
+                            <a href="https://www.figma.com/files/recent?fuid=840753866420700237" target="_blank">Design Software</a>
+                        </li>
+                        <li>
+                            <a href="https://code.visualstudio.com/download" target="_blank">Code Editor</a>
+                        </li>
+                        <li>
+                            <a href="https://git-scm.com/" target="_blank">Git (Version control tool)</a>
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <p>
+                        Web Development is a fun thing to do. If you know HTML and CSS, you will be able to design a lot of beautiful websites,
+                    </p>
+        
+                    <p> The purpose of live server is hot loading.</p>
+        
+                    <!-- <a href="https://google.com/" target="_blank"> Go to Google </a> -->
+        
+                    <img src="./images/html_logo.png" alt="HTML Logo">
+                    <img src="./images/css_logo.png" alt="CSS Logo">
+                    <img src="./images/js_logo.png" alt="JS Logo">
+                    <!-- <img src="./images/node_logo.png" alt="Node Logo">
+                    <img src="./images/python_logo.png" alt="Python logo">
+                    <img src="./images/php_logo.png" alt="PHP Logo">
+                    <img src="./images/mangodb_logo.png" alt="MangoDB Logo"> -->
+        
+                    <h2>HTML KEYWORDS</h2>
+                    <ul>
+                        <li>Accessibilty</li>
+                        <li>Responsiveness</li>
+                        <!-- an attribut is an additional property which gives more information about an HTML tag-->
+                    </ul>
+                </div>
+                
+                <div> <!-- div acts as a section / container and doesn't have any semantic meaning-->
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis culpa sit atque hic eius iusto eligendi necessitatibus aliquid. Facilis expedita minima amet, vitae sint quisquam. Sit explicabo deserunt vero dolor?
+                    </p>
+                </div> 
+                
+                <div> 
+                <p>Some Block Elements include but are not limited to;</p><!-- the block elements -->
+                <ul>
+                    <li> h1 - h6</li>
+                    <li> p </li>
+                    <li> div </li>
+                    <li> header </li>
+                    <li> footer </li>
+                    <li> main </li>
+                    <li> section </li>
+                    <li> article</li>
+                </ul>
+
+                <p>Some Non-Block Elements are;</p>
+                <ul>
+                    <li> img </li>
+                    <li> a </li>
+                    <li> label</li>
+                    <li> input </li>
+                    <li> span </li>
+                    <li> small </li>
+                </ul>
+                </div>
+                <!-- CSS BOX MODEL
+                    the difference between margin and padding
+                    padding - the space / distance inside i.e space / distance between the content and the border
+                    margin - the space / distance outside i.e the space / distance between the border and another content-->
+                <div style="border: 2px solid orange; padding: 20px; margin-top: 30px; margin-bottom: 30px">
+                    Content
+                </div>
+            </main>
+            <footer style="background: black; color:orange; text-align: center; padding: 1px">
+                <div>
+                    <p>Copyright 2021 | Olawumi Ladele</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

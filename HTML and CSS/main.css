@@ -1,0 +1,37 @@
+#title {
+    color: orange;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+#menu li {
+    list-style-type: none;
+    margin: 15px;
+    display: inline-block;
+}
+
+.section {
+    border: 2px solid rgb(160, 128, 68);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#section-1 {
+    background-color: rgb(166, 199, 101);
+}
+
+#section-2 {
+    background-color: rgb(103, 230, 213);
+}
+
+#section-3 {
+    background-color: rgb(97, 82, 168);
+}
+
+#section-4 {
+    background-color: rgb(231, 116, 116);
+}
