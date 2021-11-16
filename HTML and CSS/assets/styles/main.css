@@ -1,0 +1,102 @@
+#title {
+    color: orange;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+#menu li {
+    list-style-type: none;
+    margin: 15px;
+    display: inline-block;
+}
+
+.section {
+    border: 2px solid rgb(160, 128, 68);
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#section-1 {
+    background-color: rgb(166, 199, 101);
+}
+
+#section-2 {
+    background-color: rgb(103, 230, 213);
+}
+
+#section-3 {
+    background-color: rgb(97, 82, 168);
+}
+
+#section-4 {
+    background-color: rgb(231, 116, 116);
+}
+
+/*  CSS for Projects*/
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid purple;
+    display: inline-block;
+    margin: 0 10px 20px 0;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 16px;
+}
+
+#boxes {
+    text-align: center;
+}
+
+#box-1 {
+    background-color: palevioletred;
+}
+
+#box-2 {
+    background-color: orchid;
+}
+
+#box-3 {
+    background-color: plum;
+}
+
+/* for the videos section on project */
+#videos {
+    text-align: center;
+}
+
+#video-1 {
+    margin: 10px;
+}
+
+#video-2 {
+    margin: 10px;
+}
+
+hr {
+    height: 2px;
+    background-color: gray;
+}
+
+/* Styling the icons */
+i {
+    font-size: 23px;
+    margin: 12px;
+}
+
+/* .fa-github-square {
+    color: #333:;;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+.fa-twitter-square {
+    color: #1da1f2;
+} */

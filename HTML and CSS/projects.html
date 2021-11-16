@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | HTML and CSS Course</title>
+    <script src="https://kit.fontawesome.com/17271b2fb2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body> 
+    <div>
+        <header style="background: black; color:orange; text-align: center; padding: 1px">
+            <h1 id="title">Welcome To Web Development</h1>
+            <ul id="menu">
+                <li>
+                    <a href="./index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="./projects.html"> Projects</a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <h2>Projects | HTML and CSS Course</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <!-- h1 - h6, p, div, header, footer, section, articles etc: are blocking elements, they do not allow other elements to come to their left or right i.e they take the whole width -->
+
+            <h1>This is an h1 tag</h1>
+            <h2 style="border: 2px solid purple; ">This is an h2 tag</h2>
+            <span style="border: 2px solid olive; display: block">This is just a span element</span>
+            <span>This is the second span element</span>
+
+            <!-- div does not have any semantic meaning unlike section which does eg header, which is beyond just a tag but also refers to the header at the top where banner or the title maybe same goes to footer.-->
+            <section>
+                <h1>Introduction to HTML</h1>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem veritatis sunt perferendis exercitationem dicta velit cum deleniti nisi reprehenderit itaque molestias delectus aperiam ipsam natus at eveniet consectetur, tenetur facilis?
+                        Consequatur fugiat nihil nisi fuga a placeat dicta corporis, esse quia ea quaerat ad autem sit consectetur deleniti enim ex quod? Fugiat reprehenderit recusandae dignissimos provident, consectetur minus rem quisquam!
+                        Illo, libero asperiores. Qui numquam tempora commodi! Deleniti praesentium nulla eum id! Sed culpa porro excepturi tempora id, error quo. Non dolorum placeat dolorem iure voluptates labore repellendus, aspernatur accusantium.
+                    </p>
+                </article>
+            </section>
+
+            <hr>
+
+            <section>
+                <h1>Introduction to CSS</h1>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut enim modi ea veritatis consequuntur sit perferendis libero? A facere nemo dignissimos eum suscipit. Dolorem nemo eum consectetur officiis itaque quisquam.
+                        Labore minus nisi debitis expedita pariatur dolor dicta fugiat id iusto quisquam, cumque sunt perspiciatis numquam maxime possimus sapiente? Praesentium quis dignissimos ad tempora necessitatibus officiis itaque dicta, atque pariatur?
+                    </p>
+                </article>
+            </section>
+
+            <hr>
+
+            <section>
+                <h1>Introduction to JavaScript</h1>
+                <article>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus magni facere quibusdam aliquid, rem enim architecto nesciunt placeat voluptatibus quo voluptatum atque illo! Obcaecati sint quia provident, molestias quae optio.
+                        Consectetur totam aspernatur numquam repellat eum? Suscipit dolorum non aliquid laboriosam sint vitae itaque. Ex nemo necessitatibus, obcaecati aperiam fugiat accusamus quae dicta, inventore rem odit nobis sit ad facere?
+                        Laboriosam deserunt unde temporibus sit alias veniam impedit, libero totam consectetur. Iste dolores omnis quod debitis quibusdam repellendus fugit consectetur iure culpa. Expedita quos modi id tempore ipsum tempora ex! 
+                    </p>
+                </article>
+            </section>
+
+            <hr>
+
+            <section>
+                <h1>Introduction to React</h1>
+                <article>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae eos consequatur earum porro illo sed soluta ipsa odit quae omnis, nisi quia excepturi facere ratione necessitatibus delectus animi incidunt dignissimos.
+                        Placeat illum odit iure maiores est explicabo laudantium odio soluta, corrupti, laborum officia. Consequuntur nemo similique quaerat animi architecto vel aliquid dolore ipsam? Nostrum quae quas quod ipsum. Illo, numquam. 
+                    </p>
+                </article>
+            </section>
+
+            <hr>
+
+            <section>
+                <h1>Core Technologies of the Web</h1>
+                <article id="boxes">
+                    <div class="box" id="box-1">HTML</div>
+                    <div class="box" id="box-2">CSS</div>
+                    <div class="box" id="box-3">JavaScript</div>
+                </article>
+            </section>
+
+            <hr>
+
+            <span>Abike</span> <br>
+            <span>Gift</span>   <br>
+            <span>Bestjnr</span>    <br>
+
+            <p>
+                2 <sup>3</sup> = 8
+            </p>
+            <p>
+                The chemical formular for sulphuric acid is H <sub>2</sub> SO <sub>4</sub>
+            </p>
+            
+            <!-- Our first poem the paragraph tag <p> doesn't reserve the space, rather it fills up the line being a blocking element. So instead of using the p tag, use the pre tag which simply means preserve-->
+            <p>
+                The plate will still shift
+                and the clouds will still spew.
+                The sun will slowly rise
+                and the moon will follow too.
+             </p>
+
+             <pre>
+                The plate will still shift
+                and the clouds will still spew.
+                The sun will slowly rise
+                and the moon will follow too.
+             </pre>
+
+             <pre>
+                <code>
+                    let firstName = 'Olawumi'
+                    let lastName = 'Ladele'
+                    printFullName = (firstName, lastName) => { 
+                        return firstName + ' ' + lastName
+                    }
+                </code>
+            </pre>
+
+            <blockquote>
+                HTML is the building block of the web. There is no website without HTML.
+            </blockquote>
+
+            <section>
+                <h1>Podcasts</h1>
+                <article>
+                    <p>
+                        You can find all my podcast aout web technologies, data science and other related technologies.
+                    </p>
+                </article>
+
+                <div>
+                    <h1> Podcast: Episode 1</h1>
+                    <audio controls>
+                        <source src="assets/audios/Jaymike Bamiloye I'll be there.mp3">
+                        Your Browser does not support the audio tag.
+                    </audio>
+                </div>
+                
+                <div>
+                    <h1> Podcast: Episode 2</h1>
+                    <audio controls>
+                        <source src="./assets/audios/JayMike Bamiloye- Hello Hello Sister .mp3">
+                        Your Browser does not support the audio tag.
+                    </audio>
+                </div>
+            </section>
+
+            <hr>
+
+            <section>
+                <h1>Videos</h1>
+                <article id="videos">
+                    <video id="video-1" src="./assets/videos/Abike play.mp4" controls width="300px">
+                        Your Browser does not support the video tag
+                    </video>
+                    <br>
+                    <!-- <video src="./assets/videos/Abike bday Debbie.mp4"></video> -->
+                        <!-- Videos can be added either with example 1 or 2 above or 3 below. Note, example 2 doesn't have the controls attribute therefore, you cannot control the size on the screen unlike examples 1 and 3.-->
+                    <video id="video-2" controls width="300px">
+                        <source src="./assets/videos/Abike bday Debbie.mp4">
+                        Your Browser does not support the video tag
+                    </video>
+                </article>
+            </section>
+        </main> 
+        <footer style="background: black; color:orange; text-align: center; padding: 1px">
+            <div>
+                <small>Copyright &copy; 2021 | Olawumi Ladele</small>
+            </div>
+            <div>
+                <a href="https://github.com/laabike" target="_blank"><i class="fab fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/ladele-olawumi-ab817712b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/la_abike?s=09" target="_blank"><i class="fab fa-twitter-square"></i></a> 
+            </div>
+        </footer>
+        
+    </div>
+</body>
+</html>
